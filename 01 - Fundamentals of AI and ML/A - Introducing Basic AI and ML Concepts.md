@@ -191,10 +191,10 @@ Generative AI focuses on:
 
 Remember:
 
-**Fixed rules + predictable output → Traditional programming**
-**Learning patterns from data → Machine Learning**
-**Complex neural networks → Deep Learning**
-**Creating new text / images / audio / etc. → Generative AI**
+- **Fixed rules + predictable output → Traditional programming**
+- **Learning patterns from data → Machine Learning**
+- **Complex neural networks → Deep Learning**
+- **Creating new text / images / audio / etc. → Generative AI**
 
 ---
 ## 2 - How Do Machines Learn?
@@ -496,10 +496,11 @@ A loan model that heavily relies on ZIP code may indirectly discriminate if loca
 | Bias             | Systematic unfairness in model behavior               |
 
 Core exam memory:
-**Poor on training + Poor on new data → Underfitting**
-**Great on training + Poor on new data → Overfitting**
-**Good on training + Good on new data → Good fit / Generalization**
-**Accurate model ≠ Fair model**
+
+- **Poor on training + Poor on new data → Underfitting**
+- **Great on training + Poor on new data → Overfitting**
+- **Good on training + Good on new data → Good fit / Generalization**
+- **Accurate model ≠ Fair model**
 
 ## 3 - Different Ways Machines Learn
 
@@ -688,8 +689,9 @@ These are easy to confuse.
 | Self-supervised | Model derives labels / signals from the data itself |
 
 Remember:
-**Semi-supervised = Some labels already exist**
-**Self-supervised = Data creates its own supervision**
+
+- **Semi-supervised = Some labels already exist**
+- **Self-supervised = Data creates its own supervision**
 
 ### 3.11 - Reinforcement Learning
 
@@ -740,19 +742,19 @@ If the model learns by **trial and error using rewards or penalties**, think **r
 
 ### 3.14 - Key Exam Distinctions
 
-**Known correct labels → Supervised learning**
-**No labels, discover patterns → Unsupervised learning**
-**Few labeled + many unlabeled examples → Semi-supervised learning**
-**Model creates its own learning signals from data → Self-supervised learning**
-**Rewards and penalties → Reinforcement learning**
+- **Known correct labels → Supervised learning**
+- **No labels, discover patterns → Unsupervised learning**
+- **Few labeled + many unlabeled examples → Semi-supervised learning**
+- **Model creates its own learning signals from data → Self-supervised learning**
+- **Rewards and penalties → Reinforcement learning**
 
 For supervised learning:
-**Predict a class → Classification**
-**Predict a continuous number → Regression**
+- **Predict a class → Classification**
+- **Predict a continuous number → Regression**
 
 For unsupervised learning:
-**Discover similar groups → Clustering**
-**Find unusual observations → Anomaly detection**
+- **Discover similar groups → Clustering**
+- **Find unusual observations → Anomaly detection**
 
 ## 4 - Types of Data in AI Models
 
@@ -891,10 +893,10 @@ AI can process audio for tasks such as speech recognition.
 Both **tabular data** and **time series data** are forms of **structured data**.
 
 Key exam distinctions:
-**Rows + columns → Tabular data**
-**Ordered observations over time → Time series data**
-**Text, images, video, audio → Unstructured data**
-**Forecasting trends over time → Time series is likely relevant**
+- **Rows + columns → Tabular data**
+- **Ordered observations over time → Time series data**
+- **Text, images, video, audio → Unstructured data**
+- **Forecasting trends over time → Time series is likely relevant**
 
 ## 5 - Exam Tips
 
@@ -1148,19 +1150,19 @@ Remember:
 
 ### 5.12 - High-Priority Exam Memory
 
-**AI → ML → Deep Learning → Generative AI**
-**Training → Learn from data**
-**Inference → Use trained model on new data**
-**Labeled data → Supervised**
-**No labels + discover patterns → Unsupervised**
-**Few labels + many unlabeled → Semi-supervised**
-**Generate supervision from the data itself → Self-supervised**
-**Rewards and penalties → Reinforcement learning**
-**Category prediction → Classification**
-**Continuous value prediction → Regression**
-**Poor training + poor test performance → Underfitting**
-**Great training + good test performance → Overfitting**
-**Good training + good test performance → Good fit / generalization**
-**Large pre-trained multi-purpose model → Foundation model**
-**Further task-specific training of a pre-trained model → Fine-tuning**
-**Language-focused foundation model → LLM**
+- **AI → ML → Deep Learning → Generative AI**
+- **Training → Learn from data**
+- **Inference → Use trained model on new data**
+- **Labeled data → Supervised**
+- **No labels + discover patterns → Unsupervised**
+- **Few labels + many unlabeled → Semi-supervised**
+- **Generate supervision from the data itself → Self-supervised**
+- **Rewards and penalties → Reinforcement learning**
+- **Category prediction → Classification**
+- **Continuous value prediction → Regression**
+- **Poor training + poor test performance → Underfitting**
+- **Great training + good test performance → Overfitting**
+- **Good training + good test performance → Good fit / generalization**
+- **Large pre-trained multi-purpose model → Foundation model**
+- **Further task-specific training of a pre-trained model → Fine-tuning**
+- **Language-focused foundation model → LLM**
