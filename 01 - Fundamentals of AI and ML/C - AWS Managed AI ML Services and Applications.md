@@ -405,7 +405,9 @@ Amazon Comprehend Medical can identify **Protected Health Information (PHI)**
 The **Detect PHI API** can be used to detect sensitive healthcare information within clinical text.
 
 > **Exam Distinction**:
+> 
 > **Amazon Comprehend** → general-purpose NLP
+> 
 > **Amazon Comprehend Medical** → NLP for healthcare and clinical text
 
 ### 4.8 - Exam Focus
@@ -738,7 +740,9 @@ It is optimized for medical terminology such as:
 Suitable for healthcare applications that regularly process spoken medical content.
 
 > **Exam distinction:**
+> 
 > **Amazon Transcribe** → general-purpose speech-to-text
+> 
 > **Amazon Transcribe Medical** → speech-to-text optimized for healthcare and medical terminology
 
 ### 7.8 - Exam Focus
@@ -806,8 +810,8 @@ For a coffee-ordering chatbot, slots might include:
 - Quantity
 
 Example:
-**Intent:** Order coffee
-**Slot:** Size = Large
+- **Intent:** Order coffee
+- **Slot:** Size = Large
 
 Amazon Lex can ask follow-up questions to obtain missing slot values before fulfilling the request.
 
@@ -843,8 +847,11 @@ Amazon Lex can integrate with **Amazon Connect** to build conversational bots fo
 This can enable automated voice interactions in call centers.
 
 > **Exam mapping:**
+> 
 > **Chatbot / conversational interface → Amazon Lex**
+> 
 > **Contact center → Amazon Connect**
+> 
 > **Automated contact-center bot → Amazon Lex + Amazon Connect** 
 
 ### 8.6 - Integration with Amazon Comprehend

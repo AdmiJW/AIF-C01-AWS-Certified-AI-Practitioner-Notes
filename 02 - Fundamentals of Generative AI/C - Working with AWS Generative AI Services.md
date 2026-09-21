@@ -169,9 +169,9 @@ Reason: They need an **existing model + fine-tuning + dedicated infrastructure c
 Reason: They need the full ML lifecycle to **build and train a custom model from scratch**
 
 The distinction can be remembered as:
-**Bedrock = Speed**
-**JumpStart = Control + Existing models**
-**SageMaker = Deep customization**
+- **Bedrock = Speed**
+- **JumpStart = Control + Existing models**
+- **SageMaker = Deep customization**
 
 ### 1.5 - Exam Focus
 
@@ -535,8 +535,8 @@ Custom word filtering is useful when an organization has specific terms that mus
 
 The distinction is:
 
-**Denied topic → Blocks a broader subject or semantic topic**
-**Word filter → Blocks specific words or phrases**
+- **Denied topic → Blocks a broader subject or semantic topic**
+- **Word filter → Blocks specific words or phrases**
 
 ### 4.5 - Protecting Sensitive Information
 
@@ -589,9 +589,9 @@ Guardrails and application error handling have different responsibilities.
 
 A system prompt alone should not be treated as a replacement for dedicated safety controls.
 
-**System prompt → Model behavior**
-**Guardrail → Enforced safety/policy controls**
-**Application code → User-facing handling and business logic**
+- **System prompt → Model behavior**
+- **Guardrail → Enforced safety/policy controls**
+- **Application code → User-facing handling and business logic**
 
 ### 4.9 - Exam Focus
 

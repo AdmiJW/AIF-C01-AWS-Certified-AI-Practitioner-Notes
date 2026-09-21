@@ -10,9 +10,9 @@ For the **AIF-C01 exam**, focus on how generative AI works conceptually rather t
 
 **Exam associations:**
 
-**Text converted into numerical representations → Embeddings**
-**Relationships/similarity between concepts → Vector space**
-**Architecture underlying modern LLMs → Transformers**
+- **Text converted into numerical representations → Embeddings**
+- **Relationships/similarity between concepts → Vector space**
+- **Architecture underlying modern LLMs → Transformers**
 
 ### 1.2 - Common Generative AI Limitations
 
@@ -61,8 +61,8 @@ Choose **Amazon SageMaker** when you need to:
 - Train custom models
 - Control ML infrastructure or compute configurations
 
-**Bedrock → Less infrastructure management**
-**JumpStart/SageMaker → More control and customization**
+- **Bedrock → Less infrastructure management**
+- **JumpStart/SageMaker → More control and customization**
 
 #### AWS AI Chips
 
@@ -100,8 +100,8 @@ Use it when information:
 - Should be incorporated without repeatedly retraining the model.
 
 **Memory aid:**
-**Change model behavior → Fine-tuning**
-**Give model current knowledge → RAG**
+- **Change model behavior → Fine-tuning**
+- **Give model current knowledge → RAG**
 
 ### 1.6 - AIF-C01 Question Formats
 

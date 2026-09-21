@@ -340,8 +340,8 @@ Simple models are often easier to interpret, while more complex models may captu
 This is not an absolute rule, but it is an important exam concept.
 
 **Memory aid:**
-**Simple → Easier to understand**
-**Complex → Harder to interpret**
+- **Simple → Easier to understand**
+- **Complex → Harder to interpret**
 
 ### 4.5 - Transparency and Safety
 

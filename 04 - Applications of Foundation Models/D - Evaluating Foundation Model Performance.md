@@ -37,8 +37,8 @@ They provide a more **objective** and **scalable** method for assessing characte
 Benchmark datasets generally require **less administrative effort** than human evaluation and can help identify potential **bias** in model outputs.
 
 **Memory aid:**
-Human evaluation → **Nuance + human judgement**
-Benchmark datasets → **Objective + scalable testing**
+- Human evaluation → **Nuance + human judgement**
+- Benchmark datasets → **Objective + scalable testing**
 
 ### 1.2 - Exam Focus
 
@@ -94,8 +94,8 @@ BLEU scores typically range from **0 to 1**, where a higher score indicates a cl
 Unlike metrics that mainly compare exact words, BERTScore evaluates **semantic similarity** - whether two pieces of text have similar meaning even when different words are used.
 
 Example:
-Reference: *A dog is loyal and friendly*
-Generated: *A dog is faithful and sociable*
+- Reference: *A dog is loyal and friendly*
+- Generated: *A dog is faithful and sociable*
 
 Although the wording differs, **BERTScore** can recognize that the sentences have similar meanings.
 
@@ -162,9 +162,9 @@ User refinement and feedback can also help guide the model toward better outcome
 A model that performs required tasks **accurately, reliably, and smoothly** is more likely to align with the organization's intended use case.
 
 **Memory aid:**
-**Productivity → Efficiency**
-**Engagement → User interaction**
-**Task engineering → Task completion**
+- **Productivity → Efficiency**
+- **Engagement → User interaction**
+- **Task engineering → Task completion**
 
 ### 3.2 - Exam Focus
 

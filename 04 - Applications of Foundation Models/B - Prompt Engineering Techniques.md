@@ -55,8 +55,8 @@ It can be thought of as a conceptual map that allows the model to associate rela
 
 For example:
 
-**Renewable energy** → solar, wind, hydrogen
-**Green energy** → renewables, sustainability, carbon footprint
+- **Renewable energy** → solar, wind, hydrogen
+- **Green energy** → renewables, sustainability, carbon footprint
 
 The model can generated related concepts because its latent representations capture relationships between concepts, even when those relationships are not explicitly stated in the prompt.
 

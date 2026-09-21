@@ -191,8 +191,8 @@ For workloads requiring more consistency, such as factual or business-oriented r
 For creative tasks, higher randomness can encourage more diverse output.
 
 **Memory aid:**
-Lower Temperature/Top P → **Predictability**
-Higher Temperature/Top P → **Creativity**
+- Lower Temperature/Top P → **Predictability**
+- Higher Temperature/Top P → **Creativity**
 
 These settings influence response variability but do **not guarantee factual correctness**.
 
@@ -225,8 +225,8 @@ Example:
 
 The system prompt caused the model to maintain this persona while responding to subsequent user messages.
 
-**System prompt → Application-level behavior**
-**User prompt → Individual user request**
+- **System prompt → Application-level behavior**
+- **User prompt → Individual user request**
 
 System prompts are useful for creating a consistent **brand or corporate voice** without changing the underlying foundation model.
 

@@ -497,15 +497,15 @@ Compared with fine-tuning, RAG can be more cost-effective when the primary requi
 
 A useful distinction is whether the requirement involves changing the model's **behavior** or giving it additional **knowledge**.
 
-**Change model behavior for a specialized task → Fine-tuning**
-**Provide current or proprietary knowledge → RAG**
-**Guide output using examples without retraining → In-context learning**
-**Build an entirely new model → Pre-training**
+- **Change model behavior for a specialized task → Fine-tuning**
+- **Provide current or proprietary knowledge → RAG**
+- **Guide output using examples without retraining → In-context learning**
+- **Build an entirely new model → Pre-training**
 
 Typical cost order:
-**Pre-training → highest cost**
-**Fine-tuning → moderate cost**
-**RAG / In-context learning → generally lower cost**
+- **Pre-training → highest cost**
+- **Fine-tuning → moderate cost**
+- **RAG / In-context learning → generally lower cost**
 
 Actual cost depends on factors such as model size, data volume, inference usage, storage, and infrastructure.
 
@@ -659,14 +659,14 @@ Memory aid:
 
 #### Key Inference Parameter Pattern
 
-**Lower Temperature / Top-p / Top-k → More restricted and predictable output**
-**Higher Temperature / Top-p / Top-k → More varied and diverse output**
+- **Lower Temperature / Top-p / Top-k → More restricted and predictable output**
+- **Higher Temperature / Top-p / Top-k → More varied and diverse output**
 
 Remember the distinction:
 
-**Temperature → randomness**
-**Top-k → number of candidates**
-**Top-p → probability-based candidate pool**
+- **Temperature → randomness**
+- **Top-k → number of candidates**
+- **Top-p → probability-based candidate pool**
 
 #### RAG and Vector Search
 
@@ -686,16 +686,16 @@ Vector databases store **embeddings**, which enable retrieval based on **semanti
 
 A useful relative cost pattern is:
 
-**Pre-training → highest cost**
-**Fine-tuning → moderate cost**
-**RAG / in-context learning → generally lower cost**
+- **Pre-training → highest cost**
+- **Fine-tuning → moderate cost**
+- **RAG / in-context learning → generally lower cost**
 
 Choose based on the requirement:
 
-**New model from scratch → Pre-training**
-**Change specialized model behavior → Fine-tuning**
-**Provide current/external knowledge → RAG**
-**Guide output using examples in the prompt → In -context learning**
+- **New model from scratch → Pre-training**
+- **Change specialized model behavior → Fine-tuning**
+- **Provide current/external knowledge → RAG**
+- **Guide output using examples in the prompt → In -context learning**
 
 #### Agents
 

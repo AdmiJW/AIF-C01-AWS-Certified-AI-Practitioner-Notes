@@ -8,10 +8,10 @@ Which AI learning strategy enables this adaptive improvement?
 
 ### 1.2 - Choices
 
-A. **Unsupervised learning** to identify patterns and user preferences
-B. **Supervised learning** with a fixed dataset of past purchases and ratings
-C. **Supervised learning** with an evolving dataset of customer interactions
-D. **Reinforcement learning** with rewards based on customer engagement metrics
+- A. **Unsupervised learning** to identify patterns and user preferences
+- B. **Supervised learning** with a fixed dataset of past purchases and ratings
+- C. **Supervised learning** with an evolving dataset of customer interactions
+- D. **Reinforcement learning** with rewards based on customer engagement metrics
 
 ### 1.3 - Correct Answer
 
@@ -56,10 +56,10 @@ Which evaluation metric should the company use?
 
 ### 2.2 - Choices
 
-A. **R² (R-Squared)**  
-B. **Root Mean Squared Error (RMSE)**  
-C. **F1 Score**  
-D. **Accuracy**
+- A. **R² (R-Squared)**  
+- B. **Root Mean Squared Error (RMSE)**  
+- C. **F1 Score**  
+- D. **Accuracy**
 
 ### 2.3 - Correct Answer
 
@@ -99,10 +99,10 @@ Which solution meets these requirements?
 
 ### 3.2 - Choices
 
-A. **Amazon Textract**  
-B. **Amazon Comprehend**  
-C. **Amazon SageMaker**  
-D. **Amazon Rekognition**
+- A. **Amazon Textract**  
+- B. **Amazon Comprehend**  
+- C. **Amazon SageMaker**  
+- D. **Amazon Rekognition**
 
 ### 3.3 - Correct Answer
 
@@ -143,10 +143,10 @@ Which Amazon SageMaker service is designed to streamline the **data preparation 
 
 ### 4.2 - Choices
 
-A. **Amazon SageMaker Feature Store**  
-B. **Amazon SageMaker Clarify**  
-C. **Amazon SageMaker Pipelines**  
-D. **Amazon SageMaker Data Wrangler**
+- A. **Amazon SageMaker Feature Store**  
+- B. **Amazon SageMaker Clarify**  
+- C. **Amazon SageMaker Pipelines**  
+- D. **Amazon SageMaker Data Wrangler**
 
 ### 4.3 - Correct Answer
 

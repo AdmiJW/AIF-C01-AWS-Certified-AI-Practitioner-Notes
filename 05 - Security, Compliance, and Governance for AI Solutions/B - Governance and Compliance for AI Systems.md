@@ -248,8 +248,8 @@ Audit Manager can help organizations demonstrate compliance with regulations, st
 | **AWS Artifact**      | Access AWS **compliance reports, certifications, and agreements**      |
 
 Memory aid:
-**Audit Manager → Your audit evidence**
-**Artifact → AWS compliance documents**
+- **Audit Manager → Your audit evidence**
+- **Artifact → AWS compliance documents**
 
 ### 2.5 - AWS Artifact - Compliance Documentation
 
@@ -440,8 +440,8 @@ This allows organizations to evaluate many related compliance controls consisten
 | **Conformance Pack**        | Groups multiple Config rules and remediation actions for broader compliance objectives |
 
 Memory aid:
-**Config Rule** → **One compliance check**
-**Conformance Pack → Collection of compliance checks**
+- **Config Rule** → **One compliance check**
+- **Conformance Pack → Collection of compliance checks**
 
 ### 3.5 - Exam Focus
 
@@ -455,9 +455,9 @@ Memory aid:
 - **Apply a collection of compliance rules aligned to frameworks such as PCI DSS → AWS Config conformance packs**
 
 High-value distinction:
-**IAM → Who/what can access AI services**
-**Bedrock Guardrails → What AI inputs/outputs are permitted**
-**AWS Config → Whether AWS resources remain compliantly configured**
+- **IAM → Who/what can access AI services**
+- **Bedrock Guardrails → What AI inputs/outputs are permitted**
+- **AWS Config → Whether AWS resources remain compliantly configured**
 
 ## 4 - Data Governance Strategies
 
@@ -518,8 +518,8 @@ It supports **data immutability**, which is valuable for:
 | **Governance mode** | Users with specific permissions can bypass retention protection when necessary                                    |
 
 Memory aid:
-**Compliance mode → Strictest protection**
-**Governance mode → Authorized bypass possible**
+- **Compliance mode → Strictest protection**
+- **Governance mode → Authorized bypass possible**
 
 #### Legal Holds
 
@@ -607,7 +607,7 @@ These controls help organizations maintain **responsible AI practices** througho
 - **Retention cannot be bypassed, even by root → Object Lock Compliance mode**
 - **Authorized users can bypass retention → Object Lock Governance mode**
 - **Preserve data indefinitely for litigation/discovery → Legal hold**
-- **Automatically optimize S3 storage by access pattern → S3 Intelligen-Tiering**
+- **Automatically optimize S3 storage by access pattern → S3 Intelligent-Tiering**
 - **Long-term, rarely accessed archival data → S3 Glacier / Glacier Deep Archive**
 - **Centralized backup and recovery of AWS resources → AWS Backup**
 - **Operational metrics, logs, and alarms → Amazon CloudWatch**
@@ -639,9 +639,9 @@ Policies are supported by **processes** and **procedures**.
 | **Procedure** | Defines the detailed steps for performing a task            |
 
 Memory aid:
-**Policy → What/Why**
-**Process → How at a high level**
-**Procedure → Exact steps**
+- **Policy → What/Why**
+- **Process → How at a high level**
+- **Procedure → Exact steps**
 
 ### 5.2 - Policy Review Cadence
 

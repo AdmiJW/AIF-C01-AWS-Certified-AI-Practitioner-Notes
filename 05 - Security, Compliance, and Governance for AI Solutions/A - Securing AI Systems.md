@@ -160,8 +160,8 @@ Example:
 **AWS Certificate Manager (ACM)** provisions and manages SSL/TLS certificates used to secure network communications.
 
 **Important distinction:**
-**KMS → Encryption keys/data encryption**
-**ACM → SSL/TLS certificates**
+- **KMS → Encryption keys/data encryption**
+- **ACM → SSL/TLS certificates**
 
 #### Amazon Macie
 
@@ -200,7 +200,7 @@ Benefits include:
 
 The **AWS Shared Responsibility Model** separates security responsibilities between **AWS** and the **customer**.
 
-| **AWS - Security of the Cloud**                            | **Customer - Security in theCloud**             |
+| **AWS - Security of the Cloud**                            | **Customer - Security in the Cloud**            |
 | ---------------------------------------------------------- | ----------------------------------------------- |
 | Physical data centers                                      | Customer data                                   |
 | Physical infrastructure                                    | IAM permissions                                 |
@@ -253,8 +253,8 @@ Understanding data origins helps organizations assess **data quality** and ident
 Source citation supports **transparency** and helps organizations identify applicable **licensing, terms of service, and acceptable-use requirements**.
 
 **Exam distinction:**
-**Where the data came from → Data origins**
-**Acknowledging/documenting the source → Data source citation**
+- **Where the data came from → Data origins**
+- **Acknowledging/documenting the source → Data source citation**
 
 #### Data Lineage
 
@@ -356,8 +356,8 @@ Network controls such as **Amazon VPC, security groups**, and **network ACLs (NA
 | **Amazon CloudWatch** | Monitors metrics and logs and can generate alarms based on operational or security conditions   |
 
 **Exam distinction:**
-**Audit AWS API activity → CloudTrail**
-**Monitor metrics/logs and create alarms → CloudWatch**
+- **Audit AWS API activity → CloudTrail**
+- **Monitor metrics/logs and create alarms → CloudWatch**
 
 ### 4.2 - Privacy and Compliance
 
@@ -524,8 +524,8 @@ Amazon Inspector primarily supports the **identification and assessment of vulne
 | **Amazon Inspector** | Identify software vulnerabilities and exposure             | **Vulnerability management** |
 
 **Exam distinction:**
-**Suspicious malicious activity → GuardDuty**
-**Known vulnerabilities in workloads → Inspector**
+- **Suspicious malicious activity → GuardDuty**
+- **Known vulnerabilities in workloads → Inspector**
 
 ### 5.4 - Amazon Detective and Incident Response
 
@@ -594,9 +594,9 @@ Important examples include:
 | **Training data poisoning**  | Attackers manipulate training data to influence model behavior or introduce vulnerabilities              |
 
 **Exam distinction:**
-**Manipulate the model through crafted prompts → Prompt injection**
-**Trust unsafe model output without validation → Insecure output handling**
-**Tamper with training data → Training data poisoning**
+- **Manipulate the model through crafted prompts → Prompt injection**
+- **Trust unsafe model output without validation → Insecure output handling**
+- **Tamper with training data → Training data poisoning**
 
 ### 6.2 - Amazon Bedrock Guardrails
 
@@ -682,8 +682,8 @@ AWS Shield integrates with services such as:
 | **AWS Shield** | **DDoS attacks** affecting availability                   |
 
 **Exam distinction:**
-**XSS / SQL injection / malicious web requests → AWS WAF**
-**DDoS protection → AWS Shield**
+- **XSS / SQL injection / malicious web requests → AWS WAF**
+- **DDoS protection → AWS Shield**
 
 ### 6.7 - Amazon Cognito
 
@@ -705,8 +705,8 @@ Security capabilities can include:
 Cognito can also integrate with services such as **AWS WAF** to strengthen application protection.
 
 **Exam distinction:**
-**AWS workforce / resource permissions → IAM**
-**Customer sign-up and sign-in for web / mobile applications → Amazon Cognito**
+- **AWS workforce / resource permissions → IAM**
+- **Customer sign-up and sign-in for web / mobile applications → Amazon Cognito**
 
 ### 6.8 - Infrastructure Security for AI Systems
 
